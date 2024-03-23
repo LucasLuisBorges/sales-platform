@@ -1,8 +1,9 @@
+import { TailwindIndicator } from "@/components/tailwind-indicator";
+import { fontSans } from "@/config/fonts";
+import { cn } from "@/lib/cn";
+import { ThemeProvider } from "@/providers/themeProvider";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning className={cn(fontSans.variable)}>
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <ThemeProvider attribute="class" defaultTheme="light">
+          {children}
+          <TailwindIndicator />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
