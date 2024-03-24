@@ -11,7 +11,7 @@ export function Footer() {
           <Icons.twitter className="w-6 h-6 fill-muted-foreground hover:fill-foreground duration-150" />
         </a>
         <a href="/" target="_blank" aria-label="social media">
-          <Icons.gitHub className="w-6 h-6 fill-muted-foreground hover:fill-foreground duration-150" />
+          <Icons.instagram className="w-6 h-6 fill-muted-foreground hover:fill-foreground duration-150" />
         </a>
       </div>
     </footer>
