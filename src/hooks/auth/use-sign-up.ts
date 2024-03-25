@@ -20,12 +20,8 @@ export function useSignUp() {
     setSuccess("");
 
     startTransition(async () => {
-      const response = await signUpAction(values);
-      if (response.status === "error") {
-        return setError(response.message);
-      }
+      const response = await signUpAction();
 
-      setSuccess(response.message);
       form.reset();
     });
   }

@@ -1,5 +1,4 @@
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useSearchParams } from "next/navigation";
 import { useState, useTransition } from "react";
 import { useForm } from "react-hook-form";
 
@@ -7,21 +6,14 @@ import { signInAction } from "@/actions/auth/sign-in-action";
 import { SignInSchema } from "@/schemas/auth";
 
 export function useSignIn() {
-  const searchParams = useSearchParams();
-
   const [isPending, startTransition] = useTransition();
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
-  const [showTwoFactor, setShowTwoFactor] = useState(false);
 
   const form = useForm<SignInSchema>({
     resolver: zodResolver(SignInSchema),
     defaultValues: { email: "", password: "" },
   });
-
-  const param = {
-    callbackUrl: searchParams.get("callbackUrl"),
-  };
 
   function clearMessages() {
     setError("");
@@ -32,10 +24,7 @@ export function useSignIn() {
     clearMessages();
 
     startTransition(async () => {
-      const response = await signInAction({
-        values,
-        callbackUrl: param.callbackUrl,
-      });
+      const response = await signInAction();
 
       form.reset();
     });
@@ -45,8 +34,6 @@ export function useSignIn() {
     isPending,
     error,
     success,
-    showTwoFactor,
-    setShowTwoFactor,
     onSubmit,
     form,
   };

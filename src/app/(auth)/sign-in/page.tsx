@@ -22,15 +22,7 @@ import { redirects } from "@/utils/constants";
 import authImage from "@/components/images/auth.jpg";
 
 export default function SignInPage() {
-  const {
-    isPending,
-    error,
-    success,
-    onSubmit,
-    form,
-    setShowTwoFactor,
-    showTwoFactor,
-  } = useSignIn();
+  const { isPending, error, success, onSubmit, form } = useSignIn();
 
   useEffect(() => {
     if (error) toast.error(error);
