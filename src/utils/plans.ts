@@ -4,6 +4,7 @@ export const plans = [
     desc: "Acesso a um único serviço pessoal",
     price: 12.99,
     isMostPop: false,
+    slug: "/assinatura/?tipo=unico",
     features: {
       include: [
         "1 único produto pessoal",
@@ -20,6 +21,7 @@ export const plans = [
     desc: "Acesso a todos os produtos pessoais",
     price: 29.99,
     isMostPop: true,
+    slug: "/assinatura/?tipo=multiplo",
     features: {
       include: [
         "Diversos produto pessoal",
@@ -36,6 +38,7 @@ export const plans = [
     desc: "Acesso a todos os produtos",
     price: 64.99,
     isMostPop: false,
+    slug: "/assinatura/?tipo=empresa",
     features: {
       include: [
         "Diversos produto pessoal/empresarial",

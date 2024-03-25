@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Plataforma de vendas",
+  name: "Lunger - Plataforma de vendas",
   description: "Lunger - plataforma para gerenciar seus produtos",
   authors: [
     {

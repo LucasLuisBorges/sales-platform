@@ -6,6 +6,7 @@ import { useState } from "react";
 
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
+import { redirects } from "@/utils/constants";
 import { navigation } from "@/utils/navigation";
 import { NavHeader } from "./nav-header";
 
@@ -20,7 +21,7 @@ export function Navbar() {
 
       <nav
         className={cn(
-          "md:block fixed z-50 bg-background top-0 inset-x-0 rounded-b-2xl max-w-screen-xl mx-auto p-4",
+          "md:block fixed z-50 bg-card top-0 inset-x-0 rounded-b-2xl max-w-screen-xl mx-auto p-4",
           !state && "hidden"
         )}
       >
@@ -51,14 +52,14 @@ export function Navbar() {
 
             <div className="gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
               <Link
-                href=""
+                href={redirects.toSignIn}
                 className="text-foreground w-full hover:text-muted-foreground"
               >
                 Entrar
               </Link>
 
               <Link
-                href=""
+                href={redirects.toSignUp}
                 className={buttonVariants({
                   className: "w-full",
                 })}

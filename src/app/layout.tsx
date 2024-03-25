@@ -1,4 +1,5 @@
 import { TailwindIndicator } from "@/components/tailwind-indicator";
+import { Toaster } from "@/components/ui/sonner";
 import { fontSans } from "@/config/fonts";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/cn";
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-background font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
+          <Toaster theme="dark" />
           <TailwindIndicator />
         </ThemeProvider>
       </body>

@@ -4,7 +4,8 @@ import { LayoutEffect } from "@/components/layout-effect";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { cn } from "@/lib/cn";
 import { plans } from "@/utils/plans";
-import { Button } from "./ui/button";
+import Link from "next/link";
+import { buttonVariants } from "./ui/button";
 
 export function Pricing() {
   return (
@@ -71,15 +72,17 @@ export function Pricing() {
                   ))}
                 </ul>
                 <div className="pt-8">
-                  <Button
+                  <Link
+                    href={item.slug}
                     className={cn(
+                      buttonVariants(),
                       "w-full",
                       !item.isMostPop &&
                         "bg-gray-800 hover:bg-gray-700 ring-gray-800"
                     )}
                   >
                     Assinar
-                  </Button>
+                  </Link>
                 </div>
               </div>
             </div>
