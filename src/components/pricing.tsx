@@ -4,7 +4,7 @@ import { LayoutEffect } from "@/components/layout-effect";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { cn } from "@/lib/cn";
 import { plans } from "@/utils/plans";
-import { Button } from "../ui/button";
+import { Button } from "./ui/button";
 
 export function Pricing() {
   return (

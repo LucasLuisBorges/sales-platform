@@ -1,4 +1,5 @@
 "use client";
+import { productType } from "@/types/product";
 import {
   AnimatePresence,
   motion,
@@ -8,23 +9,7 @@ import {
 } from "framer-motion";
 import { useState } from "react";
 
-interface Content {
-  description: string;
-  imageUrl: string;
-}
-
-export const AnimatedTooltip = ({
-  item,
-}: {
-  item: {
-    id: number;
-    title: string;
-    slug: string;
-    quote: string;
-    type: string;
-    content: Content;
-  };
-}) => {
+export const AnimatedTooltip = ({ item }: { item: productType }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const springConfig = { stiffness: 100, damping: 5 };
   const x = useMotionValue(0);
