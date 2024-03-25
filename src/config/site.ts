@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Plataforma de vendas",
-  description: "Plataforma de vendo de produtos",
+  description: "Lunger - plataforma para gerenciar seus produtos",
   authors: [
     {
       name: "Lucas Borges",
@@ -9,11 +9,23 @@ export const siteConfig = {
     },
   ],
   keywords: [
+    "Plataforma de vendas",
+    "Plataforma de vendo de produtos",
     "Next.js",
     "React",
     "Tailwind CSS",
     "Server Components",
     "Radix UI",
+    "Lunger",
+    "lunger",
+    "vendas",
+    "assinatura",
+    "produtos",
+    "notion",
+    "note",
+    "taskX",
+    "task",
+    "x",
   ],
 };
 

@@ -12,14 +12,14 @@ export const products = [
       {
         title: "Objetivo",
         description:
-          "Notion Note tem como objetivo ajudar o usuário a organizar todas as suas atividades contando com criação de items e subitems para deixar seu dia mais organizado e seu foco centralizado nas tarefas demarcadas.",
+          "O Notion Note é sua plataforma unificada para anotações e organização de tarefas, desenhada para trazer clareza e foco ao seu dia. Com funcionalidades intuitivas para a criação de itens e subitens, ele transforma a maneira como você planeja suas atividades, permitindo uma organização sem precedentes. Esqueça a sensação de estar sobrecarregado com afazeres e abrace a produtividade com Notion Note.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },
       {
         title: "Visão técnica",
         description:
-          "Nosso produto foi desenvolvido pensando em ser eficaz em diversas situações, para usuários que queiram centralizar todas suas tarefas em um só lugar, e para usuários que tem tarefas de diversas empresas diferentes e precisem dividir as tarefas por empresa.",
+          "Desenvolvido para a máxima eficiência, o Notion Note atende tanto a necessidades individuais quanto coletivas, facilitando a gestão de tarefas em diversos contextos. Se você busca centralizar suas atividades pessoais ou precisa de uma solução robusta para coordenar projetos em várias empresas, o Notion Note oferece a flexibilidade e as ferramentas necessárias para adaptar-se perfeitamente ao seu fluxo de trabalho.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },
@@ -38,14 +38,14 @@ export const products = [
       {
         title: "Objetivo",
         description:
-          "Nosso produto foi desenvolvido pensando em ser eficaz em diversas situações, para usuários(empresa) que queiram centralizar todas suas tarefas em um só lugar. Podendo separar por setor, equipes etc...",
+          "O TasksX redefine a gestão de tarefas empresariais, proporcionando um controle completo sobre prazos e atividades de sua equipe. Ideal para empresas que desejam centralizar a organização de tarefas, o TX permite a segmentação por setor ou equipe, facilitando o acompanhamento e a execução eficiente de projetos. Transforme a maneira como sua empresa opera com TasksX.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },
       {
         title: "Visão técnica",
         description:
-          "Sit duis est minim proident non nisi velit non consectetur. Esse adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore",
+          "Com uma abordagem que prioriza a simplicidade sem sacrificar a profundidade funcional, o TasksX integra recursos avançados para o gerenciamento de tarefas. Seja para pequenas equipes ou organizações de grande porte, o TX oferece uma solução escalável que se adapta às demandas específicas de sua empresa. Explore a sinergia entre tecnologia e produtividade com o TasksX.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },
@@ -62,13 +62,15 @@ export const products = [
     content: [
       {
         title: "Objetivo",
-        description: "EM DESENVOLVIMENTO.",
+        description:
+          "Atualmente sob desenvolvimento, este produto está sendo cuidadosamente projetado para atender às necessidades empresariais emergentes. Fique atento para mais atualizações, pois estamos comprometidos em trazer uma solução inovadora que transformará a eficiência e a colaboração dentro de sua organização.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },
       {
         title: "Visão técnica",
-        description: "EM DESENVOLVIMENTO.",
+        description:
+          "Em fase de desenvolvimento, este produto promete ser um divisor de águas no que diz respeito a soluções empresariais. Com a tecnologia mais recente e um foco em design intuitivo, nosso objetivo é fornecer uma ferramenta que não apenas atenda às suas necessidades operacionais, mas que também seja um prazer de usar. Aguarde por uma solução que combinará funcionalidade avançada com facilidade de uso inigualável.",
         image:
           "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       },

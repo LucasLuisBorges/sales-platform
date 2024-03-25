@@ -11,7 +11,9 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
-  description: "Lunger - plataforma para gerenciar seus produtos",
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  authors: siteConfig.authors,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
@@ -21,7 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={cn(fontSans.variable)}>
+    <html
+      lang="pt-br"
+      suppressHydrationWarning
+      className={cn(fontSans.variable)}
+    >
       <body className="min-h-screen bg-background font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
