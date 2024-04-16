@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { fontSans } from "@/config/fonts";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/cn";
+import { AppCardProvider } from "@/providers/app-cart-provider";
 import { ThemeProvider } from "@/providers/themeProvider";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
@@ -30,11 +31,13 @@ export default function RootLayout({
       className={cn(fontSans.variable)}
     >
       <body className="min-h-screen bg-background font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="light">
-          {children}
-          <Toaster theme="dark" />
-          <TailwindIndicator />
-        </ThemeProvider>
+        <AppCardProvider>
+          <ThemeProvider attribute="class" defaultTheme="light">
+            {children}
+            <Toaster theme="dark" />
+            <TailwindIndicator />
+          </ThemeProvider>
+        </AppCardProvider>
       </body>
     </html>
   );

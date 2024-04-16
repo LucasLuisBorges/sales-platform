@@ -1,3 +1,4 @@
+"use client";
 import { LayoutEffect } from "@/components/layout-effect";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { features } from "@/utils/features";

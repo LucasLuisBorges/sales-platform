@@ -1,8 +1,10 @@
 export const plans = [
   {
+    id: "price_1OyZmICHAIUqu6PzJygY64ST",
     name: "Único",
     desc: "Acesso a um único serviço pessoal",
     price: 12.99,
+    currency: "brl",
     isMostPop: false,
     slug: "/assinatura/?tipo=unico",
     features: {
@@ -17,9 +19,11 @@ export const plans = [
     },
   },
   {
+    id: "price_1Oz2GyCHAIUqu6PzSfiy35we",
     name: "Múltiplo",
     desc: "Acesso a todos os produtos pessoais",
     price: 29.99,
+    currency: "brl",
     isMostPop: true,
     slug: "/assinatura/?tipo=multiplo",
     features: {
@@ -34,9 +38,11 @@ export const plans = [
     },
   },
   {
+    id: "price_1Oz2HQCHAIUqu6PzCsHlfNcQ",
     name: "Empresa",
     desc: "Acesso a todos os produtos",
     price: 64.99,
+    currency: "brl",
     isMostPop: false,
     slug: "/assinatura/?tipo=empresa",
     features: {

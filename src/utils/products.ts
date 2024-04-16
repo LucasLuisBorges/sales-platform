@@ -13,15 +13,13 @@ export const products = [
         title: "Objetivo",
         description:
           "O Notion Note é sua plataforma unificada para anotações e organização de tarefas, desenhada para trazer clareza e foco ao seu dia. Com funcionalidades intuitivas para a criação de itens e subitens, ele transforma a maneira como você planeja suas atividades, permitindo uma organização sem precedentes. Esqueça a sensação de estar sobrecarregado com afazeres e abrace a produtividade com Notion Note.",
-        image:
-          "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/product/notion_note/notion_note_1.png",
       },
       {
         title: "Visão técnica",
         description:
           "Desenvolvido para a máxima eficiência, o Notion Note atende tanto a necessidades individuais quanto coletivas, facilitando a gestão de tarefas em diversos contextos. Se você busca centralizar suas atividades pessoais ou precisa de uma solução robusta para coordenar projetos em várias empresas, o Notion Note oferece a flexibilidade e as ferramentas necessárias para adaptar-se perfeitamente ao seu fluxo de trabalho.",
-        image:
-          "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/product/notion_note/notion_note_2.png",
       },
     ],
   },
