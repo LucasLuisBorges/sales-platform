@@ -2,7 +2,7 @@
 
 <img src="https://github.com/LucasLuisBorges/sales-platform/blob/master/public/readme/1.png" width="100%">
 
-<img src="https://github.com/LucasLuisBorges/lug-plataform/blob/master/public/readme/2.png" width="100%">
+<img src="https://github.com/LucasLuisBorges/sales-platform/blob/master/public/readme/2.png" width="100%">
 
 ## Tecnologias Utilizadas
 
